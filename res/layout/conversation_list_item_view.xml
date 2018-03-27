@@ -57,13 +57,14 @@
         android:id="@+id/swipeableContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:importantForAccessibility="no" >
+	android:background="@drawable/rounded_corners"
+        android:importantForAccessibility="no">
         <LinearLayout
             android:id="@+id/swipeableContent"
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?android:attr/selectableItemBackground"
+	    android:background="@drawable/rounded_corners"
             android:clipToPadding="false"
             android:duplicateParentState="true"
             android:padding="@dimen/conversation_list_item_view_padding">

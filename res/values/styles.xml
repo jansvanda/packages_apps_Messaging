@@ -58,7 +58,7 @@
     </style>
 
     <style name="BugleTheme.ConversationListActivity" parent="BugleTheme">
-        <item name="android:windowBackground">@android:color/background_light</item>
+        <item name="android:windowBackground">@color/conversation_background</item>
     </style>
 
     <style name="BugleTheme.ArchivedConversationListActivity" parent="BugleTheme.ConversationListActivity">
@@ -145,6 +145,7 @@
         <item name="android:scrollHorizontally">false</item>
         <item name="android:textCursorDrawable">@null</item>
         <item name="android:inputType">textShortMessage|textAutoCorrect|textCapSentences|textMultiLine</item>
+        <item name="android:layout_marginRight">10dp</item>
     </style>
 
     <style name="ConversationComposeSubjectText" parent="ConversationComposeSendText">
