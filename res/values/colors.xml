@@ -171,4 +171,7 @@
     <color name="fastscroll_preview_text_color">#ffffff</color>
 
     <color name="google_gray">#F1F1F1</color>
+
+    <color name="navigation_bar_color">@android:color/white</color>
+
 </resources>
