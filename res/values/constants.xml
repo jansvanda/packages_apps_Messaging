@@ -25,11 +25,11 @@
     <bool name="notifications_enabled_pref_default" translatable="false">true</bool>
     <string name="notification_sound_pref_key" translatable="false">notification_sound</string>
     <string name="notification_vibration_pref_key" translatable="false">notification_vibration</string>
-    <bool name="notification_vibration_pref_default" translatable="false">true</bool>
+    <bool name="notification_vibration_pref_default" translatable="false">false</bool>
     <string name="sms_disabled_pref_key" translatable="false">sms_disabled</string>
     <string name="sms_enabled_pref_key" translatable="false">sms_enabled</string>
     <string name="send_sound_pref_key" translatable="false">send_sound</string>
-    <bool name="send_sound_pref_default" translatable="false">true</bool>
+    <bool name="send_sound_pref_default" translatable="false">false</bool>
     <string name="advanced_pref_key" translatable="false">advanced_prefs</string>
 
     <!-- Subscription-specific settings. The values of these pref keys must be prefixed with
@@ -92,4 +92,12 @@
 
     <!-- Generic reveal view animation duration -->
     <integer name="reveal_view_animation_duration">300</integer>
+
+    <!-- Preference keys for user-visible settings -->
+    <!-- Application-wide settings -->
+    <string name="swipe_right_deletes_conversation_key" translatable="false">swipe_right_deletes_conversation</string>
+
+    <!-- This should really go into a config xml, but whoever wrote this app is an idiot, so follow their pattern -->
+    <bool name="swipe_right_deletes_conversation_default" translatable="false">true</bool>
+
 </resources>
